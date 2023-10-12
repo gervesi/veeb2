@@ -1,0 +1,27 @@
+{
+  "name": "vp23",
+  "version": "1.0.0",
+  "description": "veebiprogrammeerimise kursuse käigus loodud veeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gervesi@github.com/gervesi/veeb2.git"
+  },
+  "keywords": [
+    "veebiprogrammeerimine"
+  ],
+  "author": "German Vesi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gervesi/veeb2/issues"
+  },
+  "homepage": "https://github.com/gervesi/veeb2#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "tjs": "^6.0.3"
+  }
+}
