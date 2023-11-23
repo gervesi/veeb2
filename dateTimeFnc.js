@@ -1,4 +1,4 @@
-const monthNamesET = ["jaanuar", "veebruar", "mÃ¤rts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober", "november", "detsember"];
+const monthNamesET = ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober", "november", "detsember"];
 const monthNamesEN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 const dateNowEN = function(){
@@ -35,13 +35,13 @@ const timeOfDayET = function(){
 		dayPart = "hommik";
 	}
 	if(hourNow >= 12 && hourNow < 14){
-		dayPart = "keskpÃ¤ev";
+		dayPart = "keskpäev";
 	}
 	if(hourNow >= 14 && hourNow < 18){
-		dayPart = "pÃ¤rastlÃµuna";
+		dayPart = "pärastlõuna";
 	}
 	if (hourNow > 18){
-		dayPart = "Ãµhtu";
+		dayPart = "õhtu";
 	}
 	return dayPart;
 }

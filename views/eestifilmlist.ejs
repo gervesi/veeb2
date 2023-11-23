@@ -7,16 +7,17 @@
 </head>
 <body>
 	<img src="/banner/banner.png" alt="veebiprogrammeerimise kursuse banner">
-	<h1><%= h1 %></h1>
+	<h1>Eesti film</h1>
 	<ul>
-		<% wisdoms.forEach(function(sentence){ %>
-			<li><%= sentence %></li>
-		<% }); %>
-	</ul>
-	<hr>
-	<ul>
+		<li><a href="/eestifilm">Eesti filmide avaleht</a></li>
 		<li><a href="/">Avalehele</a></li>
 	</ul>
 	<hr>
+	<h2>Andmebaasis olevad filmid</h2>
+	<ol>
+		<% filmlist.forEach(function(film){ %>
+			<li><%= film.title %>, toodetud: <%= film.production_year %> </li>
+		<% }); %>
+	</ol>
 </body>
 </html>
